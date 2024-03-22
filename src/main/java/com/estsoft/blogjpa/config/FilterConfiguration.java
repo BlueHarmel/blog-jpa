@@ -1,14 +1,13 @@
 package com.estsoft.blogjpa.config;
 
-//import com.estsoft.blogjpa.filter.AddTraceIdFilter;
-//import com.estsoft.blogjpa.filter.UrlPrintFilter;
+
+import com.estsoft.blogjpa.filter.AddTraceIdFilter;
+import com.estsoft.blogjpa.filter.UrlPrintFilter;
 import jakarta.servlet.Filter;
-import lombok.NoArgsConstructor;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@NoArgsConstructor
 @Configuration
 public class FilterConfiguration {
     @Bean
